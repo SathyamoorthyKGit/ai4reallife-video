@@ -1,0 +1,107 @@
+{
+ "v": 1,
+ "stage": "final",
+ "look": "Sathya's B&W collage reel series (copied from their reference video): white paper texture wall with grey vignette and drifting window / spotlight / soft light; their halftone sticker cut-outs pinned with soft drop shadows; AI for Real Life brand accents: pink #FB3779 and blue #3C46FD (their logo); pro camera rig with parallax back plane, handheld drift, dutch tilts, snap punch-ins, whip-ins/outs, match-cut zooms and roll transitions; AI for Real Life logo end card; camera travels through a tall world (pushes, tilts, whips with motion blur), Morven kicker over a huge Allenoire headline with random-letter reveals, Regarn Black tapes and stamps, hand-drawn pink marks, torn-paper B&W stock clips, glitch blocks at cuts. Fonts are Sathya's files: Allenoire-400, Morven-400, Regarn 100/400/700/900. Instagram Reel 9:16, every beat timed to Sathya's voice-over (Reel_06 voice-over, 91.7 s), text kept inside the Reels safe zone. Sathya’s own halftone portrait of Sam Altman as a sticker. Logo slots: plain cream cards that hold perfectly still in the foreground, for Sathya to lay official logos over in their editor.",
+ "palettes": [
+  [
+   "#D6D6D6",
+   "#FB3779",
+   "#2A2A2A",
+   "#3C46FD"
+  ]
+ ],
+ "theirs": 1,
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "background": "#D6D6D6",
+ "fonts": {
+  "sans": "plus-jakarta-sans"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "Shredded share",
+   "dur": 3.55,
+   "desc": "Frame 0 mid-swing: a hand stamps a pink 0% on a share certificate carrying Sam Altman's portrait; it feeds into a shredder; an empty pocket, 0% equity, OpenAI logo slot."
+  },
+  {
+   "id": "test",
+   "name": "The internal test",
+   "dur": 8.05,
+   "desc": "ChatGPT logo slot over an old computer, Internally stamp; 95% counts up while 19 of 20 users drop away; a rocket launches anyway."
+  },
+  {
+   "id": "y2015",
+   "name": "2015",
+   "dur": 6.7,
+   "desc": "2015 slams in; starting an AGI lab; Low status stamp; three laughing doubters; no one took it seriously."
+  },
+  {
+   "id": "parrot",
+   "name": "The parrot",
+   "dur": 5.6,
+   "desc": "Critics argued: a parrot squawks two speech bubbles: cannot create new knowledge, only repeat training data."
+  },
+  {
+   "id": "pattern",
+   "name": "The pattern",
+   "dur": 8.2,
+   "desc": "Altman's portrait over cities, careers and computers, then a super-linear curve draws: super-linear returns."
+  },
+  {
+   "id": "bet",
+   "name": "The bet",
+   "dur": 11.2,
+   "desc": "Aug 2022, GPT-4 finished; all the chips pushed in, server rack, massive compute; data-centre clip with before the world knew what GPT-4 could do."
+  },
+  {
+   "id": "retain",
+   "name": "5% who loved it",
+   "dur": 10.3,
+   "desc": "Retention gauge needle drops to a dismal 5%; launched anyway; 100 dots, five turn pink; didn’t just like it; an anatomical heart, loved it."
+  },
+  {
+   "id": "plan",
+   "name": "The blueprint",
+   "dur": 5.3,
+   "desc": "Build something extraordinary: a blueprint unrolls, Altman's blueprint, 3 things."
+  },
+  {
+   "id": "rule1",
+   "name": "Rule 1",
+   "dur": 4.8,
+   "desc": "Trade: a brass scale swings from short-term low status to long-term high status."
+  },
+  {
+   "id": "rule2",
+   "name": "Rule 2",
+   "dur": 4.6,
+   "desc": "Focus on asking the right questions: a raised hand and a big pink question mark; not just answers."
+  },
+  {
+   "id": "rule3",
+   "name": "Rule 3",
+   "dur": 6.8,
+   "desc": "Listen to less generic advice: a megaphone gets a pink X; compound non-obvious skills every year: bars climb."
+  },
+  {
+   "id": "future",
+   "name": "The goal",
+   "dur": 9.1,
+   "desc": "Not just chatbots: AI machines that discover new science, math and medicine; a rocket lifts off past Humanity."
+  },
+  {
+   "id": "cta",
+   "name": "Optimist or pessimist",
+   "dur": 7.52,
+   "desc": "Comedy and tragedy masks swing in: optimistic or pessimistic about AI’s impact? Drop your thoughts, save this."
+  },
+  {
+   "id": "brand",
+   "name": "AI for Real Life",
+   "dur": 2.4,
+   "desc": "End card: the AI for Real Life logo pops onto the brand blue."
+  }
+ ]
+}

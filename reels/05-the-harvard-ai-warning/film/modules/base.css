@@ -1,0 +1,76 @@
+#stage { --ground:#D6D6D6; --main:#FB3779; --second:#2A2A2A; --accent:#3C46FD; color:var(--second); font-synthesis:none; font-family:"Regarn-400", var(--sans, system-ui, sans-serif) }
+.ground { position:absolute; inset:0; overflow:hidden; background:radial-gradient(ellipse 85% 58% at 50% 42%, color-mix(in srgb, var(--ground) 25%, #fff) 0%, var(--ground) 55%, color-mix(in srgb, var(--ground) 58%, var(--second)) 100%) }
+.paper { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; mix-blend-mode:multiply; opacity:1 }
+.lite { position:absolute; inset:0; overflow:hidden; pointer-events:none }
+.lt-vig { position:absolute; inset:0; background:radial-gradient(ellipse 78% 62% at 50% 45%, transparent 55%, rgba(0,0,0,.3) 100%); mix-blend-mode:multiply }
+.lt-win { position:absolute; left:-60%; top:-30%; width:220%; height:160%; background:repeating-linear-gradient(90deg, rgba(0,0,0,.17) 0 150px, transparent 150px 330px); filter:blur(36px); mix-blend-mode:multiply }
+.lt-hot { position:absolute; left:8%; top:14%; width:84%; height:46%; border-radius:50%; background:radial-gradient(closest-side, rgba(255,255,255,.6), transparent); mix-blend-mode:screen }
+.lt-beam { position:absolute; left:-10%; top:-20%; width:120%; height:115%; background:linear-gradient(180deg, rgba(255,255,255,.6), rgba(255,255,255,0) 85%); clip-path:polygon(40% 0,60% 0,96% 100%,4% 100%); filter:blur(30px); mix-blend-mode:screen; transform-origin:50% 0 }
+.lt-leak { position:absolute; width:90%; height:60%; left:5%; top:10%; border-radius:50%; background:radial-gradient(closest-side, rgba(255,255,255,.62), transparent); mix-blend-mode:screen }
+.lt-dark { position:absolute; inset:0; background:radial-gradient(ellipse 60% 45% at 50% 58%, transparent 30%, rgba(0,0,0,.5) 100%); mix-blend-mode:multiply }
+.roll { position:absolute; inset:0; transform-origin:50% 50% } .world { position:absolute; left:0; top:0; width:1080px; transform-origin:0 0 } .fg { position:absolute; inset:0 }
+.cam { position:absolute; inset:0; transform-origin:50% 45% }
+.cut { position:absolute; display:block; filter:drop-shadow(20px 28px 16px rgba(0,0,0,.36)) }
+.words { position:absolute; margin:0; display:flex; flex-direction:column; gap:10px } .words > * { margin:0 }
+.line { font-family:"Allenoire-400", var(--display, Georgia, serif); font-weight:400; font-size:200px; line-height:.88; text-transform:uppercase; color:var(--second); white-space:nowrap } .line.xl { font-size:260px } .line.m { font-size:150px } .line.s { font-size:110px }
+.sub { font-family:"Morven-400", Georgia, serif; font-size:46px; letter-spacing:.14em; text-transform:uppercase; color:color-mix(in srgb, var(--second) 70%, var(--ground)); white-space:nowrap }
+.thin { font-family:"Regarn-100", var(--sans, system-ui, sans-serif); text-transform:uppercase; letter-spacing:.08em }
+.blk { font-family:"Regarn-900", var(--sans, system-ui, sans-serif); text-transform:uppercase; line-height:.88; white-space:nowrap }
+.b7 { font-family:"Regarn-700", var(--sans, system-ui, sans-serif) }
+.tape { font-family:"Regarn-900", var(--sans, system-ui, sans-serif); background:var(--second); color:color-mix(in srgb, var(--ground) 15%, #fff); padding:8px 30px 12px; font-size:92px; line-height:1; text-transform:uppercase; align-self:flex-start; white-space:nowrap; box-shadow:10px 14px 18px rgba(0,0,0,.28) }
+.tag { font-family:"Regarn-700", var(--sans, system-ui, sans-serif); background:color-mix(in srgb, var(--ground) 20%, #fff); border:2px solid var(--second); padding:8px 22px; font-size:40px; letter-spacing:.06em; text-transform:uppercase; align-self:flex-start; white-space:nowrap; box-shadow:8px 10px 14px rgba(0,0,0,.22) }
+.pin { filter:drop-shadow(22px 28px 18px rgba(0,0,0,.32)) }
+.art { position:absolute; inset:0; width:100%; height:100%; overflow:visible }
+.ink { fill:var(--second) } .red { fill:var(--main) } .blue { fill:var(--accent) } .eye { fill:color-mix(in srgb, var(--ground) 15%, #fff) }
+.stroke { fill:none; stroke:var(--second); stroke-width:4; stroke-linecap:round; stroke-linejoin:round }
+.redline { fill:none; stroke:var(--main); stroke-width:16; stroke-linecap:round; stroke-linejoin:round }
+.ghost { position:absolute; font-family:"Allenoire-400", var(--display, Georgia, serif); font-size:420px; line-height:1; color:transparent; -webkit-text-stroke:3px color-mix(in srgb, var(--second) 16%, transparent); white-space:nowrap; text-transform:uppercase }
+.disc { position:absolute; width:190px; height:190px; border-radius:50%; background:var(--main); color:color-mix(in srgb, var(--ground) 15%, #fff); font-family:"Allenoire-400", Georgia, serif; font-size:130px; display:flex; align-items:center; justify-content:center; line-height:1 }
+.stripe { position:absolute; background:var(--accent); opacity:.88 }
+.card { position:absolute; background:color-mix(in srgb, var(--ground) 15%, #fff); border-radius:20px; box-shadow:24px 32px 40px rgba(0,0,0,.26); padding:56px 52px; box-sizing:border-box; display:flex; flex-direction:column; gap:18px }
+.clip { position:absolute; background:color-mix(in srgb, var(--ground) 10%, #fff); padding:34px 40px 40px; box-sizing:border-box; box-shadow:20px 28px 30px rgba(0,0,0,.3); display:flex; flex-direction:column; gap:16px }
+.lbl { font-family:"Regarn-700", var(--sans, system-ui, sans-serif); font-size:26px; letter-spacing:.14em; text-transform:uppercase; color:color-mix(in srgb, var(--second) 60%, var(--ground)) }
+.field { border:3px solid color-mix(in srgb, var(--second) 30%, var(--ground)); border-radius:12px; height:96px; padding:0 28px; display:flex; align-items:center; font-size:44px; gap:2px }
+.btn { font-family:"Regarn-700", var(--sans, system-ui, sans-serif); background:var(--second); color:color-mix(in srgb, var(--ground) 15%, #fff); border-radius:12px; height:100px; display:flex; align-items:center; justify-content:center; font-size:42px; margin-top:14px }
+.scr { position:absolute; background:color-mix(in srgb, var(--ground) 12%, #fff); border-radius:6px; padding:22px 30px; box-sizing:border-box; display:flex; flex-direction:column; gap:10px }
+.scr .field { height:58px; font-size:30px; padding:0 16px; border-width:2px; border-radius:8px } .scr .btn { height:56px; font-size:26px; margin-top:4px; border-radius:8px }
+.dash { border:4px dashed var(--second) }
+.stamp { position:absolute; font-family:"Regarn-900", var(--sans, system-ui, sans-serif); color:var(--main); border:9px solid var(--main); padding:8px 26px 4px; font-size:84px; line-height:1; text-transform:uppercase; white-space:nowrap; mix-blend-mode:multiply }
+.wrapsub { white-space:normal; line-height:1.25 }
+.dim { filter:grayscale(1) brightness(1.05) opacity(.35) }
+
+.back { pointer-events:none }
+.brand { position:absolute; inset:0; background:var(--accent) }
+
+.vf { position:absolute; filter:drop-shadow(20px 28px 18px rgba(0,0,0,.38)) }
+.vf-o { position:absolute; inset:0; background:color-mix(in srgb, var(--ground) 8%, #fff8ee) }
+.vf-i { position:absolute; overflow:hidden; background:#222 }
+.vf-i video { filter:contrast(1.12) brightness(1.04) }
+.vf-pp { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; mix-blend-mode:multiply; opacity:.55 }
+.vf-ht { position:absolute; inset:0; background-image:radial-gradient(rgba(0,0,0,.32) 1.1px, transparent 1.7px); background-size:7px 7px; mix-blend-mode:multiply; opacity:.6 }
+.num { font-family:"Allenoire-400", var(--display, Georgia, serif); line-height:.88; text-transform:uppercase; white-space:nowrap; font-variant-numeric:tabular-nums }
+.pink { color:var(--main) } .bluet { color:var(--accent) }
+.tape.pk { background:var(--main) } .tape.bl { background:var(--accent) }
+.dot { position:absolute; width:26px; height:26px; margin:-13px 0 0 -13px; border-radius:50%; background:var(--main); box-shadow:0 0 0 5px color-mix(in srgb, var(--main) 30%, transparent) }
+.ring { position:absolute; width:26px; height:26px; margin:-13px 0 0 -13px; border-radius:50%; border:4px solid var(--main); box-sizing:border-box }
+.qm { position:absolute; width:150px; height:150px; border-radius:50%; background:var(--main); color:#fff; font-family:"Regarn-900", var(--sans, system-ui, sans-serif); font-size:110px; display:flex; align-items:center; justify-content:center; line-height:1; box-shadow:12px 16px 18px rgba(0,0,0,.25) }
+.cell { position:absolute; width:60px; height:60px; border-radius:6px; box-sizing:border-box; border:3px solid color-mix(in srgb, var(--second) 30%, var(--ground)); background:color-mix(in srgb, var(--ground) 30%, #fff) }
+.cell.on { background:var(--main); border-color:var(--main) }
+.bar { position:absolute; box-shadow:10px 14px 16px rgba(0,0,0,.22) }
+.mbox { position:absolute; width:190px; height:160px; background:color-mix(in srgb, var(--ground) 15%, #fff); border:3px solid var(--second); box-sizing:border-box; box-shadow:10px 14px 16px rgba(0,0,0,.2); display:flex; align-items:flex-start; justify-content:center; padding-top:14px }
+.mbox span { font-family:"Regarn-900", var(--sans, system-ui, sans-serif); font-size:40px; letter-spacing:.06em }
+.stamp.solid { mix-blend-mode:normal; background:color-mix(in srgb, var(--ground) 10%, #fff); box-shadow:12px 16px 20px rgba(0,0,0,.3) }
+.brk { position:absolute; width:90px; height:90px; border-color:var(--accent); border-style:solid; border-width:0 }
+
+.slot { position:absolute; display:flex; align-items:center; justify-content:center; background:color-mix(in srgb, var(--ground) 6%, #fffaf2); border-radius:6px; box-shadow:16px 22px 26px rgba(0,0,0,.3), 0 0 0 10px color-mix(in srgb, var(--ground) 4%, #fff8ee) }
+.slot span { font-family:"Regarn-900", var(--sans, system-ui, sans-serif); font-size:64px; letter-spacing:.04em; text-transform:uppercase; color:var(--second) }
+.node { font-family:"Regarn-900", var(--sans, system-ui, sans-serif); font-size:40px; letter-spacing:.06em; text-transform:uppercase; background:var(--second); color:#fff; padding:6px 18px 8px; white-space:nowrap; box-shadow:8px 10px 14px rgba(0,0,0,.25) }
+.pk-line { fill:none; stroke:var(--main); stroke-width:12; stroke-linecap:round; stroke-linejoin:round }
+.bl-line { fill:none; stroke:var(--accent); stroke-width:10; stroke-linecap:round; stroke-linejoin:round }
+.tear { position:absolute; height:34px; background:color-mix(in srgb, var(--ground) 8%, #fff8ee); box-shadow:0 10px 16px rgba(0,0,0,.25) }
+.slot.photo { background:color-mix(in srgb, var(--ground) 12%, #f4efe6); box-shadow:18px 26px 30px rgba(0,0,0,.34), 0 0 0 12px color-mix(in srgb, var(--ground) 4%, #fff8ee) }
+.slot.photo span { font-size:30px; color:color-mix(in srgb, var(--second) 55%, var(--ground)); text-align:center; line-height:1.15 }
+.pulse { position:absolute; inset:22px; border:10px solid var(--main); border-radius:4px; pointer-events:none }
+.panel { position:absolute; background:color-mix(in srgb, var(--ground) 10%, #fff); box-shadow:14px 20px 24px rgba(0,0,0,.25); box-sizing:border-box }
+.num-b { position:absolute; width:84px; height:84px; border-radius:50%; background:var(--second); color:#fff; font-family:"Regarn-900", var(--sans, system-ui, sans-serif); font-size:52px; display:flex; align-items:center; justify-content:center }
+.kc { font-family:"Regarn-900", var(--sans, system-ui, sans-serif); text-transform:uppercase; letter-spacing:.04em; color:var(--second) }

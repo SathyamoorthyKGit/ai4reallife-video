@@ -1,0 +1,71 @@
+{
+ "v": 1,
+ "stage": "final",
+ "look": "Sathya's B&W collage reel series (copied from their reference video): white paper texture wall with grey vignette and drifting window / spotlight / soft light; their halftone sticker cut-outs pinned with soft drop shadows; AI for Real Life brand accents: pink #FB3779 and blue #3C46FD (their logo); pro camera rig with parallax back plane, handheld drift, dutch tilts, snap punch-ins, whip-ins/outs, match-cut zooms and roll transitions; AI for Real Life logo end card; camera travels through a tall world (pushes, tilts, whips with motion blur), Morven kicker over a huge Allenoire headline with random-letter reveals, Regarn Black tapes and stamps, hand-drawn pink marks, torn-paper B&W stock clips, glitch blocks at cuts. Fonts are Sathya's files: Allenoire-400, Morven-400, Regarn 100/400/700/900. Instagram Reel 9:16, every beat timed to Sathya's voice-over (Reel_07 voice-over, 65.1 s), text kept inside the Reels safe zone. Sathya’s animated GIF stickers play as 6-frame sprite loops picked from t. Logo slots: plain cream cards that hold perfectly still in the foreground, for Sathya to lay official logos over in their editor.",
+ "palettes": [
+  [
+   "#D6D6D6",
+   "#FB3779",
+   "#2A2A2A",
+   "#3C46FD"
+  ]
+ ],
+ "theirs": 1,
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "background": "#D6D6D6",
+ "fonts": {
+  "sans": "plus-jakarta-sans"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "The photocopier",
+   "dur": 4.75,
+   "desc": "Frame 0 mid-scan: a photocopier copies an office worker, four identical clones land in a row; clone yourself with AI, 3 steps, 10 min."
+  },
+  {
+   "id": "search",
+   "name": "Search bar",
+   "dur": 8.45,
+   "desc": "Most people use AI like a search bar: a search box types, a card catalogue; ask, get an answer, start over loops round a hamster wheel; never saves time."
+  },
+  {
+   "id": "step1",
+   "name": "Capture your voice",
+   "dur": 12.7,
+   "desc": "Step 1: five best emails and reports fly into a chat card; Study how I write, build me a style guide; a mirror reflects the clone: how you sound."
+  },
+  {
+   "id": "step2",
+   "name": "Capture how you think",
+   "dur": 13.1,
+   "desc": "Step 2: brain and interview lamp; Interview me, ask 10 questions about how I make decisions; a mic and voice wave; priorities, rules and red lines."
+  },
+  {
+   "id": "step3",
+   "name": "Save it, delegate",
+   "dur": 15.25,
+   "desc": "Step 3: a filing cabinet, save it; still logo slots for Claude (a Project) and ChatGPT (a custom GPT); style guide and rules go in; every chat starts as you; replies, first drafts, meeting notes for the clone at the typewriter."
+  },
+  {
+   "id": "payoff",
+   "name": "You review",
+   "dur": 5.85,
+   "desc": "Your job changes: writing from zero gets a pink X; a red pen reviews a draft; review, adjust, send as a paper plane."
+  },
+  {
+   "id": "cta",
+   "name": "Save this",
+   "dur": 5.0,
+   "desc": "Save this on a floppy disk; an alarm clock rings: build your clone tonight; 10 minutes. Once."
+  },
+  {
+   "id": "brand",
+   "name": "AI for Real Life",
+   "dur": 2.4,
+   "desc": "End card: the AI for Real Life logo pops onto the brand blue."
+  }
+ ]
+}

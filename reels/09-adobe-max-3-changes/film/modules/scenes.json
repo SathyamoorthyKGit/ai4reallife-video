@@ -1,0 +1,89 @@
+{
+ "v": 1,
+ "stage": "final",
+ "look": "Sathya's B&W collage reel series (copied from their reference video): white paper texture wall with grey vignette and drifting window / spotlight / soft light; their halftone sticker cut-outs pinned with soft drop shadows; AI for Real Life brand accents: pink #FB3779 and blue #3C46FD (their logo); pro camera rig with parallax back plane, handheld drift, dutch tilts, snap punch-ins, whip-ins/outs, match-cut zooms and roll transitions; AI for Real Life logo end card; camera travels through a tall world (pushes, tilts, whips with motion blur), Morven kicker over a huge Allenoire headline with random-letter reveals, Regarn Black tapes and stamps, hand-drawn pink marks, torn-paper B&W stock clips, glitch blocks at cuts. Fonts are Sathya's files: Allenoire-400, Morven-400, Regarn 100/400/700/900. Instagram Reel 9:16, every beat timed to Sathya's voice-over (Reel_09 voice-over, 115.0 s), text kept inside the Reels safe zone. Sathya’s animated GIF stickers play as 6-frame sprite loops picked from t. Company names appear as designed name cards in our own type (a swinging conference pass, app windows switched on by an agent cursor, spinning records, plugs into a power strip, flip-down step cards, race bibs) - never real logos. This reel uses Sathya’s full-colour pop-art GIF stickers over the paper wall; third-party logos are left out and replaced by designed name cards.",
+ "palettes": [
+  [
+   "#D6D6D6",
+   "#FB3779",
+   "#2A2A2A",
+   "#3C46FD"
+  ]
+ ],
+ "theirs": 1,
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "background": "#D6D6D6",
+ "fonts": {
+  "sans": "plus-jakarta-sans"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "Headline avalanche",
+   "dur": 4.85,
+   "desc": "Frame 0: the MAX stage sticker with headline strips flying out of a ticker; everything freezes grey and a hand pulls out three: 01 agents, 02 models, 03 MCP; 3 changes that matter."
+  },
+  {
+   "id": "max",
+   "name": "Adobe MAX",
+   "dur": 7.65,
+   "desc": "A stage sticker and an Adobe MAX lower third (Miami Beach, Nov 10-12) with a swinging Adobe MAX conference pass; nearly everything was about AI agents."
+  },
+  {
+   "id": "versus",
+   "name": "Chatbot vs agent",
+   "dur": 7.4,
+   "desc": "Split cards: a chatbot answers a question; an agent, a robot arm on a mouse, ticks through the steps itself."
+  },
+  {
+   "id": "agent",
+   "name": "01 Agent in every app",
+   "dur": 17.0,
+   "desc": "Adobe Creative Agent: five app windows pop up and a blue AI-agent cursor clicks each one, switching its Agent toggle on; in beta; a paper Premiere timeline: an effect cascades across every clip, a tracking box follows a subject, colour and exposure correct across the sequence."
+  },
+  {
+   "id": "models",
+   "name": "02 Pick your model",
+   "dur": 20.0,
+   "desc": "A jukebox with four model makers dropping in as spinning records with name tapes; you pick or auto; best for the job, video or voice; Plan Mode: a clipboard plan waits until a hand stamps Approve."
+  },
+  {
+   "id": "mcp",
+   "name": "03 MCP",
+   "dur": 14.4,
+   "desc": "MCP, Model Context Protocol: a travel adapter plugs into a power strip, an open standard and shared language; a conference stage, then four app plugs push up into one MCP strip and their lights come on."
+  },
+  {
+   "id": "chain",
+   "name": "Edits your files",
+   "dur": 13.3,
+   "desc": "The assistant edits your files on a computer while a layers panel stays editable; for example Docs to Premiere to Slack as flip-down step cards linked by pink arrows, with falling dominoes; preview, reported for early 2027."
+  },
+  {
+   "id": "late",
+   "name": "Adobe is late",
+   "dur": 8.7,
+   "desc": "DaVinci Resolve and Canva wear MCP-ready race bibs at the finish line, already connecting AI this way; a snail: Adobe is late, but bringing it to millions of creators."
+  },
+  {
+   "id": "survey",
+   "name": "The catch",
+   "dur": 13.9,
+   "desc": "Adobe survey of 2,000 US creators: a dart just off the bullseye, 68% settle; a gavel, 77% say the final call stays human."
+  },
+  {
+   "id": "payoff",
+   "name": "Brief + judgement",
+   "dur": 7.8,
+   "desc": "The clicking moves to AI: a robot arm lets go, a pen writes a clear brief, a human hand takes the mouse back; brief + judgement."
+  },
+  {
+   "id": "brand",
+   "name": "AI for Real Life",
+   "dur": 2.4,
+   "desc": "End card: the AI for Real Life logo pops onto the brand blue."
+  }
+ ]
+}

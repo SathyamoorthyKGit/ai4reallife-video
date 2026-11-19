@@ -1,0 +1,10 @@
+// Validate a score.js offline:  node scoretest.js score.js '{"hook":0,"max":4.85,...,"END":117.4}'
+const fs=require('fs');
+const src=fs.readFileSync(process.argv[2],'utf8'); const starts=JSON.parse(process.argv[3]); const END=starts.END||1e9;
+const ev=[];const FX=new Set(['tick','click','doubleclick','pop','ding','chime','sparkle','whoosh','revswell','roll','boing','thud']);const DR=new Set(['kick','snare','clap','sidestick','hat','openhat','shaker','tamb','woodblock','cowbell','tom','crash','ride']);
+const S={tempo(){},beat:b=>b*0.6,toBeat:t=>t/0.6,program(){},note(){ev.push('note')},chord(){ev.push('chord')},
+fx(n,t,o){if(!FX.has(n))throw Error('bad fx '+n);if(!(t>=-0.05&&t<END))throw Error('bad t '+n+' '+t);ev.push(['fx',n,t])},
+drum(n,o){if(!DR.has(n))throw Error('bad drum '+n);ev.push(['dr',n,o.t])},ticks(ts,o){ts.forEach(t=>ev.push(['tick',t]))},master(){}};
+let fn;const kit={score:f=>fn=f,rng:s=>{let x=s>>>0||1;return()=>{x^=x<<13;x>>>=0;x^=x>>17;x^=x<<5;x>>>=0;return x/4294967296}}};
+new Function('kit',src)(kit); fn(S,starts); console.log('events',ev.length);
+const per={};ev.forEach(e=>{const s=Math.floor(e[2]??e[1]);per[s]=(per[s]||0)+1});console.log(JSON.stringify(per));

@@ -1,0 +1,65 @@
+{
+ "v": 1,
+ "stage": "final",
+ "look": "Sathya's B&W collage reel series (copied from their reference video): white paper texture wall with grey vignette and drifting window / spotlight / soft light; their halftone sticker cut-outs pinned with soft drop shadows; AI for Real Life brand accents: pink #FB3779 and blue #3C46FD (their logo); pro camera rig with parallax back plane, handheld drift, dutch tilts, snap punch-ins, whip-ins/outs, match-cut zooms and roll transitions; AI for Real Life logo end card; camera travels through a tall world (pushes, tilts, whips with motion blur), Morven kicker over a huge Allenoire headline with random-letter reveals, Regarn Black tapes and stamps, hand-drawn pink marks, torn-paper B&W stock clips, glitch blocks at cuts. Fonts are Sathya's files: Allenoire-400, Morven-400, Regarn 100/400/700/900. Instagram Reel 9:16, every beat timed to Sathya's voice-over (Reel_08 voice-over, 50.1 s), text kept inside the Reels safe zone. Sathya’s animated GIF stickers play as 6-frame sprite loops picked from t. Logo slots: plain cream cards that hold perfectly still in the foreground, for Sathya to lay official logos over in their editor.",
+ "palettes": [
+  [
+   "#D6D6D6",
+   "#FB3779",
+   "#2A2A2A",
+   "#3C46FD"
+  ]
+ ],
+ "theirs": 1,
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "background": "#D6D6D6",
+ "fonts": {
+  "sans": "plus-jakarta-sans"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "name": "Sledgehammer",
+   "dur": 4.2,
+   "desc": "Frame 0 mid-swing: a sledgehammer comes down on a walnut; Fable 5.2 just dropped; a white glove catches it: not for everything."
+  },
+  {
+   "id": "setup",
+   "name": "One model",
+   "dur": 6.6,
+   "desc": "Most people pick one model: a paper model list stuck on one row, never switch; a still Claude logo slot; costing you speed, usage limits and quality (stopwatch, empty gauge, cracked loupe)."
+  },
+  {
+   "id": "haiku",
+   "name": "Haiku",
+   "dur": 8.9,
+   "desc": "Haiku = quick tasks: a pocket knife flicks open; rewrite a text, sort a list, pull details tick off; a hummingbird: fast answers, zero overthinking."
+  },
+  {
+   "id": "daily",
+   "name": "Daily drivers",
+   "dur": 8.4,
+   "desc": "Sonnet 5.5 and Opus 5.5: a daily-driver car rolls in; writing, research, coding; unsure? start with Opus; free plan? start with Sonnet."
+  },
+  {
+   "id": "fable",
+   "name": "Heavy lifter",
+   "dur": 14.3,
+   "desc": "Fable 5.2 with a still launch-clip slot; a tower crane for long multi-step projects, messy yarn, big codebases, deep analysis; a car stuck in the tangle; priciest on your usage: a fuel pump and $$$; don’t waste it."
+  },
+  {
+   "id": "cta",
+   "name": "Start small",
+   "dur": 7.73,
+   "desc": "Rule of thumb: a ladder with the knife, drill and crane on its rungs, start small, move up; save this: the three tools recapped as Haiku, Sonnet / Opus and Fable."
+  },
+  {
+   "id": "brand",
+   "name": "AI for Real Life",
+   "dur": 2.4,
+   "desc": "End card: the AI for Real Life logo pops onto the brand blue."
+  }
+ ]
+}
